@@ -43,8 +43,9 @@ python inventory.py
 ``` 
 
 
-👤 Author
-Joaquin Cuneo
-📍 Sderot, Israel
-💼 Transitioning to Data Analyst
-🌐 LinkedIn: https://www.linkedin.com/in/joaquin-cuneo-a21a716a/
+## 👤 Author
+
+**Joaquin Cuneo**  
+📍 Sderot, Israel  
+💼 Transitioning to Data Analyst  
+🌐 [LinkedIn Profile](https://www.linkedin.com/in/joaquin-cuneo-a21a716a)
