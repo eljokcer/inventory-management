@@ -1,34 +1,42 @@
-# Inventory Management System
+## Inventory Management System
 
-This is a simple inventory management system built with Python and pandas.  
-It allows users to view, search, update, and add product data stored in a CSV file.
+A complete console-based inventory management system built with Python and pandas.
 
-## 📦 Features
+This system allows users to interactively manage products: view, search, add, update, analyze, and export data — all from a menu-driven interface.
 
-- Load or initialize inventory from `inventory.csv`
-- Show inventory statistics
-- Search product by `ProductID`
-- Update product quantity
-- Add a new product
-- Save updated inventory to `inventory_updated.csv`
+---
 
-## 📁 Files
+## 🚀 Features
 
-- `inventory.py` – main script
-- `inventory.csv` – base inventory file
-- `inventory_updated.csv` – output after changes
+- 📄 Load inventory from `inventory.csv` or create default file
+- 📊 Show total products, stock quantity, and total value
+- 🔍 Search product by `ProductID`
+- 🛠️ Update product quantity
+- ➕ Add a new product with full validation
+- ⚠️ Display products with low stock (less than 10 units)
+- 💾 Export inventory to:
+  - `inventory_updated.csv`
+  - `inventory_summary.xlsx`
+- 🧩 Fully menu-driven interface
 
-## ⚙️ Technologies Used
+---
+
+## 🧪 Technologies Used
 
 - Python 3
 - pandas
 - Git
 
+---
+
 ## ▶️ How to Run
 
-1. Clone the repo or download the files.
-2. Make sure you have Python and pandas installed.
-3. Run the script:
+1. Clone the repository or download the files
+2. Install `pandas` if not installed:
+   ```bash
+   pip install pandas
+   ```
+
 
 ```bash
 python inventory.py
